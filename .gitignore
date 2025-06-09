@@ -1,0 +1,39 @@
+# Archivos Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos del entorno virtual
+venv/
+env/
+*.env
+
+# Archivos de configuración de Jupyter y VSCode
+.ipynb_checkpoints/
+.vscode/
+
+# Archivos temporales o de ejecución
+*.log
+*.tmp
+*.swp
+
+# Archivos grandes del dataset
+*.jsonl
+*.tsv
+/content/
+drive/
+*.csv
+
+# Archivos de salida de modelos
+*.pkl
+*.joblib
+*.npy
+
+# Salida de pruebas o evaluación
+*.out
+*.result
+*.metrics
+
+# Archivos ocultos del sistema
+.DS_Store
+Thumbs.db
