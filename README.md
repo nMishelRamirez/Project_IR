@@ -3,22 +3,21 @@
 Este proyecto implementa un sistema de recuperación de información sobre un corpus del dominio de videojuegos. Permite indexar documentos, ejecutar consultas en lenguaje natural utilizando modelos TF-IDF y BM25, y evaluar los resultados mediante métricas estándar.
 
 ## Estructura del proyecto
+
 📁 /project_root
-├── 📁 docs/                        # Documentación
-│   └── pdf                          # Archivo PDF
-│
-├── 📁 src/                         # Datos
-│   ├── corpus.jsonl                # Corpus original
-│   ├── queries.jsonl               # Consultas de prueba
-│   ├── qrels.tsv                   # Archivo ground truth (relevancia)
-│   └── preprocessing.py            # Funciones de preprocesamiento (limpieza, lematización)
-│
-├── 📁 video presses/               # Archivos de videojuegos
-│   └── video.mp4                    # Archivo de video demostrativo
-│
-├── ProyectoIR.py                  # Script principal (CLI o ejecución central)
-├── README.md                      # Instrucciones del proyecto
-└── .gitignore                     # Archivos a ignorar en Git
+├── 📁 docs/                  # Documentación
+│   └── pdf/                 # Archivo PDF
+├── 📁 src/                   # Datos
+│   ├── corpus.jsonl         # Corpus original
+│   ├── queries.jsonl        # Consultas de prueba
+│   ├── qrels.tsv            # Archivo ground truth (relevancia)
+│   └── preprocessing.py     # Funciones de preprocesamiento (limpieza, lematización)
+├── 📁 video presses/         # Archivos de videojuegos
+│   └── video.mp4            # Archivo de video demostrativo
+├── ProyectoIR.py            # Script principal (CLI o ejecución central)
+├── README.md                # Instrucciones del proyecto
+└── .gitignore               # Archivos a ignorar en Git
+
 
 
 ## Funcionalidades Implementadas
