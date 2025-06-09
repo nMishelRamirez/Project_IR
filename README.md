@@ -4,6 +4,7 @@ Este proyecto implementa un sistema de recuperación de información sobre un co
 
 ## Estructura del proyecto
 
+```
 📁 /project_root
 ├── 📁 docs/                  # Documentación
 │   └── pdf/                 # Archivo PDF
@@ -11,14 +12,13 @@ Este proyecto implementa un sistema de recuperación de información sobre un co
 │   ├── corpus.jsonl         # Corpus original
 │   ├── queries.jsonl        # Consultas de prueba
 │   ├── qrels.tsv            # Archivo ground truth (relevancia)
-│   └── preprocessing.py     # Funciones de preprocesamiento (limpieza, lematización)
+│   └── preprocessing.py     # Funciones de preprocesamiento
 ├── 📁 video presses/         # Archivos de videojuegos
-│   └── video.mp4            # Archivo de video demostrativo
-├── ProyectoIR.py            # Script principal (CLI o ejecución central)
+│   └── video.mp4            # Video demostrativo
+├── ProyectoIR.py            # Script principal
 ├── README.md                # Instrucciones del proyecto
 └── .gitignore               # Archivos a ignorar en Git
-
-
+```
 
 ## Funcionalidades Implementadas
 1. Carga y procesamiento del corpus
@@ -41,9 +41,12 @@ Este proyecto implementa un sistema de recuperación de información sobre un co
 - Evaluación de la precisión de los resultados
 
 ## Instalación
-Clona el repositorio:
-https://github.com/nMishelRamirez/Project_IR.git
 
+**Clona el repositorio:**
+```bash
+git clone https://github.com/nMishelRamirez/Project_IR.git
+cd proyecto-ir
+```
 
 ## Requisitos
 Para ejecutar el proyecto, se necesitan los siguientes paquetes:
